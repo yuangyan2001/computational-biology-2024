@@ -1,0 +1,2 @@
+Warning: [blastn] Query_446 Query 445: Could not calculate ungapped Karlin-Altschul parameters due to an invalid query sequence or its translation. Please verify the query sequence(s) and/or filtering options 
+slurmstepd: error: *** JOB 36508743 ON nc20404 CANCELLED AT 2024-10-31T17:01:18 DUE TO TIME LIMIT ***

@@ -1,0 +1,35 @@
+# started on Thu Oct 31 12:08:17 2024
+
+
+ Performance counter stats for 'blastn -db /localscratch/yuangyan.36508748.0/db/nt -query /localscratch/yuangyan.36508748.0/query/query_4_use_truncate_160 -out results.out -evalue 1e-5 -num_threads 1':
+
+        318,379.58 msec task-clock:u                     #    0.593 CPUs utilized             
+                 0      context-switches:u               #    0.000 /sec                      
+                 0      cpu-migrations:u                 #    0.000 /sec                      
+        42,917,551      page-faults:u                    #  134.800 K/sec                     
+   334,997,706,036      cycles:u                         #    1.052 GHz                         (33.28%)
+     5,566,413,152      stalled-cycles-frontend:u        #    1.66% frontend cycles idle        (33.30%)
+   134,780,626,089      stalled-cycles-backend:u         #   40.23% backend cycles idle         (33.28%)
+   826,509,985,019      instructions:u                   #    2.47  insn per cycle            
+                                                  #    0.16  stalled cycles per insn     (33.32%)
+   108,010,218,093      branches:u                       #  339.250 M/sec                       (33.36%)
+     1,511,454,344      branch-misses:u                  #    1.40% of all branches             (33.35%)
+   270,371,976,673      L1-dcache-loads:u                #  849.213 M/sec                       (33.35%)
+    38,741,383,298      L1-dcache-load-misses:u          #   14.33% of all L1-dcache accesses   (33.37%)
+   <not supported>      LLC-loads:u                                                           
+   <not supported>      LLC-load-misses:u                                                     
+    27,866,730,121      L1-icache-loads:u                #   87.527 M/sec                       (33.35%)
+       315,513,440      L1-icache-load-misses:u          #    1.13% of all L1-icache accesses   (33.37%)
+     2,265,676,663      dTLB-loads:u                     #    7.116 M/sec                       (33.37%)
+       156,636,353      dTLB-load-misses:u               #    6.91% of all dTLB cache accesses  (33.35%)
+       283,087,262      iTLB-loads:u                     #  889.150 K/sec                       (33.36%)
+         5,347,787      iTLB-load-misses:u               #    1.89% of all iTLB cache accesses  (33.33%)
+    14,435,484,501      L1-dcache-prefetches:u           #   45.340 M/sec                       (33.27%)
+   <not supported>      L1-dcache-prefetch-misses:u                                           
+
+     537.321599656 seconds time elapsed
+
+     102.913471000 seconds user
+     210.796096000 seconds sys
+
+

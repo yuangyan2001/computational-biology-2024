@@ -1,0 +1,5 @@
+/truncate_160bp
+/test_cold_start
+/test_dir_database_split/results.out
+/test_dir_query_split/results.out
+/test_dir_single_thread/results.out

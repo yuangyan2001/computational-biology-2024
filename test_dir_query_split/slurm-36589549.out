@@ -1,0 +1,7 @@
+Warning: [blastn] This database is probably too large to benefit from -mt_mode=1. We suggest using -mt_mode=1 only if the database is less than 6,000,000,000 bases or if the search is limited by an option such as -taxids, -taxidlist or -gilist.
+Warning: [Query 1-16384] Query_3172 Query 3171: Could not calculate ungapped Karlin-Altschul parameters due to an invalid query sequence or its translation. Please verify the query sequence(s) and/or filtering options 
+Warning: [Query 1-16384] Query_4583 Query 4582: Could not calculate ungapped Karlin-Altschul parameters due to an invalid query sequence or its translation. Please verify the query sequence(s) and/or filtering options 
+Warning: [Query 1-16384] Query_13119 Query 13118: Could not calculate ungapped Karlin-Altschul parameters due to an invalid query sequence or its translation. Please verify the query sequence(s) and/or filtering options 
+Warning: [Query 1-16384] Query_13960 Query 13959: Could not calculate ungapped Karlin-Altschul parameters due to an invalid query sequence or its translation. Please verify the query sequence(s) and/or filtering options 
+Warning: [Query 1-16384] Query_14224 Query 14223: Could not calculate ungapped Karlin-Altschul parameters due to an invalid query sequence or its translation. Please verify the query sequence(s) and/or filtering options 
+slurmstepd: error: *** JOB 36589549 ON nc30231 CANCELLED AT 2024-11-04T01:49:50 DUE TO TIME LIMIT ***

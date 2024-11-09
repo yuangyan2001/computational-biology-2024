@@ -1,0 +1,5 @@
+Warning: [blastn] This database is probably too large to benefit from -mt_mode=1. We suggest using -mt_mode=1 only if the database is less than 6,000,000,000 bases or if the search is limited by an option such as -taxids, -taxidlist or -gilist.
+blastn: Killed
+Warning: [blastn] This database is probably too large to benefit from -mt_mode=1. We suggest using -mt_mode=1 only if the database is less than 6,000,000,000 bases or if the search is limited by an option such as -taxids, -taxidlist or -gilist.
+slurmstepd: error: *** JOB 36589551 ON nc30339 CANCELLED AT 2024-11-04T01:53:25 DUE TO TIME LIMIT ***
+slurmstepd: error: Detected 1 oom_kill event in StepId=36589551.batch. Some of the step tasks have been OOM Killed.

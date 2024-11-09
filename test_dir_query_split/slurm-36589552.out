@@ -1,0 +1,10 @@
+Warning: [blastn] This database is probably too large to benefit from -mt_mode=1. We suggest using -mt_mode=1 only if the database is less than 6,000,000,000 bases or if the search is limited by an option such as -taxids, -taxidlist or -gilist.
+Warning: [Query 1-31250] Query_1153 Query 1152: Could not calculate ungapped Karlin-Altschul parameters due to an invalid query sequence or its translation. Please verify the query sequence(s) and/or filtering options 
+Warning: [Query 1-31250] Query_3783 Query 3782: Could not calculate ungapped Karlin-Altschul parameters due to an invalid query sequence or its translation. Please verify the query sequence(s) and/or filtering options 
+Warning: [Query 1-31250] Query_3808 Query 3807: Could not calculate ungapped Karlin-Altschul parameters due to an invalid query sequence or its translation. Please verify the query sequence(s) and/or filtering options 
+Warning: [Query 1-31250] Query_4275 Query 4274: Could not calculate ungapped Karlin-Altschul parameters due to an invalid query sequence or its translation. Please verify the query sequence(s) and/or filtering options 
+Warning: [Query 1-31250] Query_4535 Query 4534: Could not calculate ungapped Karlin-Altschul parameters due to an invalid query sequence or its translation. Please verify the query sequence(s) and/or filtering options 
+Warning: [Query 1-31250] Query_9074 Query 9073: Could not calculate ungapped Karlin-Altschul parameters due to an invalid query sequence or its translation. Please verify the query sequence(s) and/or filtering options 
+Warning: [Query 1-31250] Query_9398 Query 9397: Could not calculate ungapped Karlin-Altschul parameters due to an invalid query sequence or its translation. Please verify the query sequence(s) and/or filtering options 
+Warning: [Query 1-31250] Query_12649 Query 12648: Could not calculate ungapped Karlin-Altschul parameters due to an invalid query sequence or its translation. Please verify the query sequence(s) and/or filtering options 
+slurmstepd: error: *** JOB 36589552 ON nc20647 CANCELLED AT 2024-11-04T01:53:55 DUE TO TIME LIMIT ***
