@@ -3,7 +3,7 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
 #SBATCH --exclusive
-#SBATCH --time=05:59:00
+#SBATCH --time=23:59:00
 #SBATCH --mem=0
 mkdir -p  $SLURM_TMPDIR/db
 mkdir -p $SLURM_TMPDIR/query

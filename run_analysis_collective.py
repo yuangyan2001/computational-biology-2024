@@ -5,7 +5,7 @@ import matplotlib.ticker as mticker
 import numpy as np
 
 
-media_dir='../media/'
+media_dir='./media/'
 
 result_dir='./test_dir_single_thread/single_thread_result/'
 

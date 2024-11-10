@@ -1,0 +1,31 @@
+Computational biology project
+
+/media: graphs of the experiment results
+/test_dir_database_split: scripts running the test multithreaded(64 threads) by query split and slurm output
+/test_dir_database_split/database_split_result: perf stats of program runtime, it's where our data from
+/test_dir_query_split/query_split_result: same as above
+/test_dir_single_thread: scripts running the test, single threaded
+
+gentest*.sh: generating the sbatch script for running the job
+runtest*.sh: submitting the job once in a row
+
+
+Experiment platform
+details could be found here: https://docs.alliancecan.ca/wiki/Narval/en
+For the jobs we are running, our job are run on the first configuration of the nodes mwntioned above, requested exclusive resource and all the available memory(249GB)
+
+Experiment overview
+Our experiments has three parts.
+Part A: The proformace degradtion of database on remote nodes
+    When the database resides on a remote storage node, a single query of 160bp takes over 50 minutes to complete, compared to 5 minutes when the database is copied to the local SSD.
+Part B: Program running indicators and analysis of single threaded mode
+Part C: Program running indicators and analysis of multithreades mode, compared two multithreading methods(database split and query split)
+
+Profiling tool:
+Linux perf
+
+References:
+Linux perf: https://www.brendangregg.com/perf.html
+Blast threading techniques: https://www.ncbi.nlm.nih.gov/books/NBK571452/
+Blast user manual: https://www.ncbi.nlm.nih.gov/books/NBK279690/
+Use GNU parallel for splitting large files: Mikailov, M., Luo, FJ., Barkley, S. et al. Scaling bioinformatics applications on HPC. BMC Bioinformatics 18 (Suppl 14), 501 (2017). https://doi.org/10.1186/s12859-017-1902-7

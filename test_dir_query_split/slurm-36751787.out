@@ -1,0 +1,14 @@
+Warning: [blastn] This database is probably too large to benefit from -mt_mode=1. We suggest using -mt_mode=1 only if the database is less than 6,000,000,000 bases or if the search is limited by an option such as -taxids, -taxidlist or -gilist.
+blastn: Killed
+Warning: [blastn] This database is probably too large to benefit from -mt_mode=1. We suggest using -mt_mode=1 only if the database is less than 6,000,000,000 bases or if the search is limited by an option such as -taxids, -taxidlist or -gilist.
+blastn: Killed
+Warning: [blastn] This database is probably too large to benefit from -mt_mode=1. We suggest using -mt_mode=1 only if the database is less than 6,000,000,000 bases or if the search is limited by an option such as -taxids, -taxidlist or -gilist.
+blastn: Killed
+Warning: [blastn] This database is probably too large to benefit from -mt_mode=1. We suggest using -mt_mode=1 only if the database is less than 6,000,000,000 bases or if the search is limited by an option such as -taxids, -taxidlist or -gilist.
+blastn: Killed
+Warning: [blastn] This database is probably too large to benefit from -mt_mode=1. We suggest using -mt_mode=1 only if the database is less than 6,000,000,000 bases or if the search is limited by an option such as -taxids, -taxidlist or -gilist.
+blastn: Killed
+Warning: [blastn] This database is probably too large to benefit from -mt_mode=1. We suggest using -mt_mode=1 only if the database is less than 6,000,000,000 bases or if the search is limited by an option such as -taxids, -taxidlist or -gilist.
+blastn: Killed
+/localscratch/spool/slurmd/job36751787/slurm_script: line 12: 3152675 Bus error               perf stat -d -d -d -o ./query_split_result/query_262144_use_truncate_160_database_query_res_$i blastn -db $SLURM_TMPDIR/db/nt -query $SLURM_TMPDIR/query/query_262144_use_truncate_160 -out results.out -evalue 1e-5 -num_threads 64 -mt_mode 1
+slurmstepd: error: Detected 6 oom_kill events in StepId=36751787.batch. Some of the step tasks have been OOM Killed.

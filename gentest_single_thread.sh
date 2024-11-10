@@ -16,7 +16,7 @@ do
     echo "#SBATCH --nodes=1" >> $SCRIPT
     echo "#SBATCH --ntasks-per-node=1" >> $SCRIPT
     echo "#SBATCH --exclusive" >> $SCRIPT
-    echo "#SBATCH --time=00:59:00" >> $SCRIPT
+    echo "#SBATCH --time=05:59:00" >> $SCRIPT
     echo "#SBATCH --mem=0" >> $SCRIPT
     
     echo "mkdir -p  \$SLURM_TMPDIR/db" >> $SCRIPT
